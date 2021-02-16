@@ -1,0 +1,101 @@
+:root {
+  --blue: #00adcc;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+img {
+  height: 100vh;
+}
+
+.images-wrapper {
+  position: relative;
+}
+
+.body-part {
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+}
+
+.body-part-part {
+  visibility: hidden;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.grid-wrapper {
+  right: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  display: flex;
+  width: 60vw;
+  height: 100vh;
+  background-color: #fff;
+  flex-direction: column;
+  opacity: 0.3;
+  z-index: 1000;
+}
+
+.grid-upper {
+  display: flex;
+  flex: 4;
+  flex-direction: row;
+  /* colors to show where boxes are */
+  background-color: yellow;
+}
+.grid-shoulders {
+  flex: 1;
+  background-color: white;
+}
+.grid-arms,
+.grid-arms2 {
+  flex: 1;
+}
+
+.head-shoulders {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.grid-head {
+  flex: 2;
+  background-color: pink;
+}
+.grid-shoulders {
+  flex: 1;
+  background-color: brown;
+}
+
+.grid-chest-wrapper {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+}
+.empty {
+  flex: 1;
+}
+.grid-chest {
+  flex: 1;
+  background-color: blue;
+}
+.grid-abs-wrapper {
+  flex: 2;
+  display: flex;
+  flex-direction: row;
+}
+.grid-abs {
+  flex: 0.5;
+  background-color: red;
+}
+.grid-legs {
+  flex: 11;
+  background-color: green;
+}
