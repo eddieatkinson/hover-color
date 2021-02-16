@@ -82,6 +82,9 @@ img {
 .empty {
   flex: 1;
 }
+.empty-2 {
+  flex: 0.7;
+}
 .grid-chest {
   flex: 1;
   background-color: blue;
@@ -95,7 +98,13 @@ img {
   flex: 0.5;
   background-color: red;
 }
-.grid-legs {
+.grid-legs-wrapper {
   flex: 11;
+  display: flex;
+  flex-direction: row;
+}
+
+.grid-legs {
+  flex: 1;
   background-color: green;
 }
